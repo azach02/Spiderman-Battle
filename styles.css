@@ -1,0 +1,50 @@
+/* font-family: 'Coda', sans-serif;
+font-family: 'Eater', cursive;
+font-family: 'Freckle Face', cursive;
+font-family: 'Gloria Hallelujah', cursive; */
+
+body {
+  background-image: url("creaseyojays.jpeg");
+  background-size: cover;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Coda", sans-serif;
+  font-size: 5em;
+  text-shadow: black 1px 10px 10px;
+  background-color: rgba(255, 0, 0, 0.2);
+}
+
+h4 {
+  text-align: left;
+  opacity: 0.5;
+  width: 100px;
+}
+
+div#button {
+  font-size: 3em;
+  font-family: "Gloria Hallelujah", cursive;
+  background-image: linear-gradient(black, red, black);
+  width: 300px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+div#button:hover {
+  text-shadow: black 1px 10px 10px;
+}
+
+h2#victory,
+h2#defeat {
+  font-family: "Freckle Face", cursive;
+  font-size: 2.5em;
+  text-shadow: rgb(255, 255, 255) 5px 5px 5px;
+  background-color: rgba(255, 0, 0, 0.5);
+}
+h2 > strong {
+  font-size: 10em;
+}
